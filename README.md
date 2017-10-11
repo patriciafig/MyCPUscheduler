@@ -77,8 +77,7 @@ The process information will be read from a text input file. The information for
         -  pid: a unique numeric process ID.
         -  arrivaltime: the time when the task arrives in the unit of milliseconds
         -  CPU bursttime: the CPU time requested by a process              
-        -  Priority : priority of arrival process     
-      
-      
-<
+        -  Priority : priority of arrival process 
+        
+>
       

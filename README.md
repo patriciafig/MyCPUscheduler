@@ -84,13 +84,12 @@ The process information will be read from a text input file. The information for
 
 2. Type of scheduling algorithm
 You will be implementing four scheduling algorithms, and you will select one algorithm when you start the simulator as the 3rd argument. You will enter an integer value from one of the followings:
-•FCFS:  unixprompt> myscheduler test-input-file-name  output-file-name 0  
-•SRTF:  unixprompt> myscheduler test-input-file-name  output-file-name  1  
-•RR: unixprompt> myscheduler test-input-file-name  output-file-name 2 quantum size
-•PP: unixprompt> myscheduler test-input-file-name  output-file-name 3
+• FCFS:  unixprompt> myscheduler test-input-file-name  output-file-name 0  
+• SRTF:  unixprompt> myscheduler test-input-file-name  output-file-name  1  
+• RR:    unixprompt> myscheduler test-input-file-name  output-file-name 2 quantum size
+• PP:    unixprompt> myscheduler test-input-file-name  output-file-name 3
 
 3. Time Quantum size
-
 You will define the time quantum when the simulator begins as the first argument. The timequantum is essential for the RR scheduling and the timequantum value is an integer value and should be greater than 0.  Thus, your program should be able to take the time quantum value as the first input value. So, your program will be executed as follows:unixprompt> myscheduler test-input-file-name  output-file-name 2 4
 
 >

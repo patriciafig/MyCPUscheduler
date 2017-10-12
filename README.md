@@ -97,7 +97,7 @@ You will be implementing four scheduling algorithms, and you will select one alg
 
 You will define the time quantum when the simulator begins as the first argument. The timequantum is essential for the RR scheduling and the timequantum value is an integer value and should be greater than 0.  Thus, your program should be able to take the time quantum value as the first input value. So, your program will be executed as follows:
 
-unixprompt> myscheduler test-input-file-name  output-file-name 2 4
+> unixprompt> myscheduler test-input-file-name  output-file-name 2 4
 
 >
       

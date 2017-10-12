@@ -1,5 +1,5 @@
 
-**CSCI 3415 – Principles of Programming Languages**
+**CSCI 3453 -- Operating Systems Concepts**
 
 Lab Assignment 2
 

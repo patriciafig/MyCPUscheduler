@@ -74,7 +74,9 @@ You should collect the following information of each process:
 
 # Simulator Input
 
-> There are three inputs will be given as arguments when the simulator begins.     
+> There are three inputs will be given as arguments when the simulator begins.
+>
+
 **1. Process arrival information** (expect total number of arrival processes are up to 100)
 The process information will be read from a text input file. The information for each process will include the following fields: 
  -  pid: a unique numeric process ID.

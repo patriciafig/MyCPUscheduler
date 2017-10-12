@@ -77,18 +77,18 @@ You should collect the following information of each process:
 > There are three inputs will be given as arguments when the simulator begins.     
 1. Process arrival information (expect total number of arrival processes are up to 100)
 The process information will be read from a text input file. The information for each process will include the following fields: 
->-  pid: a unique numeric process ID.
--  arrivaltime: the time when the task arrives in the unit of milliseconds
--  CPU bursttime: the CPU time requested by a process              
->-  Priority : priority of arrival process 
+> -  pid: a unique numeric process ID.
+> -  arrivaltime: the time when the task arrives in the unit of milliseconds
+> -  CPU bursttime: the CPU time requested by a process              
+> -  Priority : priority of arrival process 
 
 2. Type of scheduling algorithm
 
 You will be implementing four scheduling algorithms, and you will select one algorithm when you start the simulator as the 3rd argument. You will enter an integer value from one of the followings:
-• FCFS:  unixprompt> myscheduler test-input-file-name  output-file-name 0  
-• SRTF:  unixprompt> myscheduler test-input-file-name  output-file-name  1  
-• RR:    unixprompt> myscheduler test-input-file-name  output-file-name 2 quantum size
-• PP:    unixprompt> myscheduler test-input-file-name  output-file-name 3
+- FCFS:  unixprompt> myscheduler test-input-file-name  output-file-name 0  
+- SRTF:  unixprompt> myscheduler test-input-file-name  output-file-name  1  
+- RR:    unixprompt> myscheduler test-input-file-name  output-file-name 2 quantum size
+- PP:    unixprompt> myscheduler test-input-file-name  output-file-name 3
 
 3. Time Quantum size
 

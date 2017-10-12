@@ -59,16 +59,17 @@ There is only one CPU
 
 # Measurements 
 You should collect the following information of each process:
-• Time of completion
-• Waiting time
-• Turnaround time
-• Response time
-• No. of Context occurred You should calculate the following information using collected measurements:
-• Average CPU burst time
-• Average waiting time
-• Average turn around time
-• Average response time
-• Total number of Context Switching performed Please refer Chapter 6 in textbook and lecture notes for all detail information about the measurements: waiting time, turn around time, response time, average waiting time, average turn around time, and average response time.
+
+- Time of completion
+- Waiting time
+- Turnaround time
+- Response time
+- No. of Context occurred You should calculate the following information using collected measurements:
+- Average CPU burst time
+- Average waiting time
+- Average turn around time
+- Average response time
+- Total number of Context Switching performed Please refer Chapter 6 in textbook and lecture notes for all detail information about the measurements: waiting time, turn around time, response time, average waiting time, average turn around time, and average response time.
 
 -----------------
 

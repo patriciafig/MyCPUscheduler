@@ -3,5 +3,5 @@ project(Lab02)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp myReadyQueue.cpp myReadyQueue.h myProcess.cpp myProcess.h)
+set(SOURCE_FILES main.cpp myReadyQueue.cpp myReadyQueue.h myProcess.cpp myProcess.h scheduler.cpp scheduler.h)
 add_executable(Lab02 ${SOURCE_FILES} myProcess.cpp myProcess.h)

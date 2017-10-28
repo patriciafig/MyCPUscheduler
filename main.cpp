@@ -18,6 +18,32 @@
 
 #include "myReadyQueue.h"
 #include "myProcess.h"
+#include "Scheduler.h"
 
 using namespace std;
+
+
+
+int main(){
+    ReadyQueue *readyQueue = new ReadyQueue();
+    Process *p1 = new Process(1,0,10,1);
+    Process *p2 = new Process(2,1,2,5);
+    Process *p3 = new Process(3,2,9,0);
+    Process *p4 = new Process(4,3,5,10);
+
+    readyQueue->enqueue(p1);
+    readyQueue->enqueue(p2);
+    readyQueue->enqueue(p3);
+    readyQueue->enqueue(p4);
+    Scheduler scheduler;
+    cout << "********************************** ROUND ROBIN **********************************"<<endl;
+    //scheduler.sort(readyQueue,"arrival_time");
+    scheduler.rrSchedule(readyQueue,4);
+
+    cout << "********************************** ROUND ROBIN **********************************"<<endl;
+    scheduler.ppSchedule(readyQueue,4);
+
+
+
+}
 

@@ -4,28 +4,21 @@
 
 #ifndef MYPROCESS_H
 #define MYPROCESS_H
-
-#include <vector>
-
-class ProcessControlBlock {
-
+//This class holds all the attributes of a process
+class Process {
 public:
-    ProcessControlBlock();   //Constructor to initialize PCB contents
-    //ProcessControlBlock(std::vector<int> values);
-
-
-
-private:
-    int ProcessID;      //Unique identifier of a  processes
-    int BurstTime;      //Time to finish a process execution
-    int ArrivalTime;
-
-
-
-
-
+    int burstTime;
+    int processID;
+    int arrivalTime;
+    int priority;
+    int comp_data;
+    int num_contexts;
+    int remaining_time;
+    Process *next;
+    //Constructor to initialize the values read from the file
+    Process(int pid, int arrival_time, int burst_time, int priority);
+    Process();
 };
-
 
 
 

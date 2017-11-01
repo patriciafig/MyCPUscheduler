@@ -10,7 +10,7 @@ Process::Process(int pid, int arrival_time, int burst_time, int priority) {
     arrivalTime = arrival_time;
     burstTime = burst_time;
     this->priority = priority;
-    next = nullptr;
+    //next = nullptr;
     num_contexts = 0;
     remaining_time = burst_time;
 }
